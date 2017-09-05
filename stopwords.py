@@ -40,4 +40,8 @@ freqs_
 
 >>> [('com', 1), ('team', 1), ('notification', 1), ('hq', 1), ('receipt', 1)]
      
-     
+  
+  
+# solution: Why getting an empty vocabulary is because "bill" belong to the list of stopwords sklearn use
+#   check - https://github.com/scikit-learn/scikit-learn/blob/06bf797c0deabe2a2f166d19abbd0c305da4d123/sklearn/feature_extraction/stop_words.py
+#   stackoverflow - https://stackoverflow.com/questions/36783814/countvectorizer-gives-empty-vocabulary-error-is-document-is-cardinal-number
